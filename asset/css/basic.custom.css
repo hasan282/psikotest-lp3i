@@ -1,0 +1,32 @@
+.height-70 {
+    min-height: 70vh;
+}
+
+.psikotest-image {
+    max-width: 550px;
+    width: 100%
+}
+
+.p-cursor {
+    cursor: pointer;
+}
+
+.rotate-30 {
+    transform: rotate(30deg);
+}
+
+.rotate-150 {
+    transform: rotate(150deg);
+}
+
+.rotate-160 {
+    transform: rotate(160deg);
+}
+
+.nowrap-table th {
+    white-space: nowrap;
+}
+
+.nowrap-table td {
+    white-space: nowrap;
+}
