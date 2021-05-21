@@ -29,4 +29,15 @@ class home extends Controller
     {
         $this->view('home/index2');
     }
+
+    public function croptry()
+    {
+        $data['title'] = 'Crop Trial';
+        $data['layout_type'] = 'navbar';
+        $data['plugins'] = 'basic|fontawesome|finecrop';
+        $data['jscript'] = 'croptry';
+        $this->view('template/base.head', $data);
+        $this->view('home/crop');
+        $this->view('template/base.foot', $data);
+    }
 }

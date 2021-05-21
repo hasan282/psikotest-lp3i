@@ -17,6 +17,10 @@ class Plugins
             'fontawesome' => array(
                 ['type' => 'css', 'position' => 'top', 'link' => BaseURL('vendor/plugins/fontawesome-free/css/all.min.css')]
             ),
+            'finecrop' => array(
+                ['type' => 'css', 'position' => 'top', 'link' => BaseURL('vendor/plugins/finecrop/fineCrop.css')],
+                ['type' => 'js', 'position' => 'bottom', 'link' => BaseURL('vendor/plugins/finecrop/fineCrop.js')]
+            ),
             'ionicon' => array(
                 ['type' => 'css', 'position' => 'top', 'link' => 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css']
             ),
